@@ -1,0 +1,59 @@
+{
+  "name": "united-iron-works",
+  "version": "1.0.0",
+  "description": "United Iron Works - Precision Welding & Fabrication Website",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "serve": "python3 -m http.server 3000",
+    "live": "npx live-server --port=3001 --open",
+    "build": "npm run validate && echo '✅ Build complete - ready for deployment'",
+    "validate": "npm run validate:structure && npm run security && echo '✅ All validations passed'",
+    "validate:structure": "echo '📋 Validating project structure...' && test -f index.html && test -f index.css && test -f server.js && echo '✅ Core files present'",
+    "validate:html": "echo '📄 HTML validation would run here'",
+    "validate:css": "echo '🎨 CSS validation would run here'",
+    "validate:js": "echo '📜 JavaScript validation would run here'",
+    "test": "echo '🧪 Running tests...' && npm run validate && echo '✅ All tests passed'",
+    "security": "echo '🔒 Running security checks...' && npm audit && node --check server.js",
+    "security:fix": "npm audit fix",
+    "clean": "echo '🧹 Cleaning temporary files...' && rm -rf node_modules/.cache",
+    "deploy": "npm run build && echo '🚀 Ready for deployment!'",
+    "analyze": "echo '📊 Project analysis:' && echo 'Files:' && find . -name '*.html' -o -name '*.css' -o -name '*.js' | grep -v node_modules | wc -l && echo 'Size:' && du -sh . --exclude=node_modules 2>/dev/null || du -sh ."
+  },
+  "keywords": [
+    "welding",
+    "fabrication", 
+    "railings",
+    "metalwork",
+    "iron-works",
+    "tailwind",
+    "responsive",
+    "seo",
+    "accessibility"
+  ],
+  "author": "United Iron Works",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unitedironworks/website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/unitedironworks/website/issues"
+  },
+  "homepage": "https://unitedironworks.com",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {},
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}

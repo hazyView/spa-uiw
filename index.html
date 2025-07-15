@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United Iron Works - Precision Welding & Fabrication Services</title>
+    <meta name="description" content="Expert metal fabrication, custom railings, and precision welding services. Safety-first approach with building code compliance. Serving residential and commercial clients.">
+    <meta name="keywords" content="welding, metal fabrication, custom railings, wrought iron, stainless steel, aluminum, safety railings, building code compliance">
+    <meta name="author" content="United Iron Works">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://unitedironworks.com/">
+    <meta property="og:title" content="United Iron Works - Precision Welding & Fabrication">
+    <meta property="og:description" content="Expert metal fabrication, custom railings, and precision welding services. Safety-first approach with building code compliance.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1611633002310-d8a3211ddfdd?w=1200&h=630&fit=crop">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://unitedironworks.com/">
+    <meta property="twitter:title" content="United Iron Works - Precision Welding & Fabrication">
+    <meta property="twitter:description" content="Expert metal fabrication, custom railings, and precision welding services. Safety-first approach with building code compliance.">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1611633002310-d8a3211ddfdd?w=1200&h=630&fit=crop">
+    
+    <!-- Favicon - Replace with actual favicon files when available -->
+    <!-- 
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    -->
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://unitedironworks.com/">
+    
+    <!-- Preconnect to external domains for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Tailwind CSS v4 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Source+Serif+4:wght@400;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "United Iron Works",
+        "description": "Expert metal fabrication, custom railings, and precision welding services",
+        "url": "https://unitedironworks.com",
+        "telephone": "+1-123-456-7890",
+        "email": "info@unitedironworks.com",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Your City",
+            "addressRegion": "Your State",
+            "addressCountry": "US"
+        },
+        "openingHours": [
+            "Mo-Fr 08:00-18:00",
+            "Sa 09:00-16:00"
+        ],
+        "serviceArea": {
+            "@type": "GeoCircle",
+            "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": "40.7128",
+                "longitude": "-74.0060"
+            },
+            "geoRadius": "50000"
+        },
+        "services": [
+            "Metal Fabrication",
+            "Custom Railings",
+            "Precision Welding",
+            "On-Site Repairs",
+            "Safety Inspections"
+        ]
+    }
+    </script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        background: 'var(--color-background)',
+                        foreground: 'var(--color-foreground)',
+                        card: 'var(--color-card)',
+                        'card-foreground': 'var(--color-card-foreground)',
+                        popover: 'var(--color-popover)',
+                        'popover-foreground': 'var(--color-popover-foreground)',
+                        primary: 'var(--color-primary)',
+                        'primary-foreground': 'var(--color-primary-foreground)',
+                        secondary: 'var(--color-secondary)',
+                        'secondary-foreground': 'var(--color-secondary-foreground)',
+                        muted: 'var(--color-muted)',
+                        'muted-foreground': 'var(--color-muted-foreground)',
+                        accent: 'var(--color-accent)',
+                        'accent-foreground': 'var(--color-accent-foreground)',
+                        destructive: 'var(--color-destructive)',
+                        'destructive-foreground': 'var(--color-destructive-foreground)',
+                        border: 'var(--color-border)',
+                        input: 'var(--color-input)',
+                        ring: 'var(--color-ring)'
+                    },
+                    fontFamily: {
+                        sans: ['var(--font-sans)'],
+                        serif: ['var(--font-serif)'],
+                        mono: ['var(--font-mono)']
+                    },
+                    borderRadius: {
+                        'custom-sm': 'var(--radius-sm)',
+                        'custom-md': 'var(--radius-md)',
+                        'custom-lg': 'var(--radius-lg)',
+                        'custom-xl': 'var(--radius-xl)'
+                    },
+                    boxShadow: {
+                        '2xs': 'var(--shadow-2xs)',
+                        'xs': 'var(--shadow-xs)',
+                        'sm': 'var(--shadow-sm)',
+                        'md': 'var(--shadow-md)',
+                        'lg': 'var(--shadow-lg)',
+                        'xl': 'var(--shadow-xl)',
+                        '2xl': 'var(--shadow-2xl)'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background text-foreground font-sans antialiased">
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-to-main">Skip to main content</a>
+    
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu-overlay" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden lg:hidden">
+        <div class="fixed top-0 right-0 h-full w-64 bg-card shadow-xl transform translate-x-full transition-transform duration-300 ease-in-out" id="mobile-menu">
+            <div class="p-6">
+                <button id="close-mobile-menu" class="float-right text-2xl text-muted-foreground hover:text-foreground">
+                    <i class="fas fa-times"></i>
+                </button>
+                <div class="mt-8 space-y-6">
+                    <a href="#home" class="block text-lg font-medium text-foreground hover:text-primary transition-colors">Home</a>
+                    <a href="#services" class="block text-lg font-medium text-foreground hover:text-primary transition-colors">Services</a>
+                    <a href="#projects" class="block text-lg font-medium text-foreground hover:text-primary transition-colors">Projects</a>
+                    <a href="#contact" class="block text-lg font-medium text-foreground hover:text-primary transition-colors">Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="#home" class="text-xl font-bold text-primary">
+                        <i class="fas fa-hammer mr-2"></i>
+                        United Iron Works
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden lg:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#home" class="text-foreground hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Home</a>
+                        <a href="#services" class="text-foreground hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Services</a>
+                        <a href="#projects" class="text-foreground hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Projects</a>
+                        <a href="#contact" class="text-foreground hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Contact</a>
+                    </div>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="lg:hidden">
+                    <button id="mobile-menu-btn" class="text-foreground hover:text-primary p-2">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main id="main-content">
+    <section id="home" class="relative min-h-screen flex items-center justify-center">
+        <!-- Background Image -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1611633002310-d8a3211ddfdd?ixid=M3wxMjQzOTV8MHwxfHNlYXJjaHwxMTZ8fHdlbGRpbmd8ZW58MHx8fHwxNzMzNDU0MjgxfDA&ixlib=rb-4.0.3&q=80&w=2160" 
+                 alt="Welding work" 
+                 class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-black/60"></div>
+        </div>
+
+        <!-- Hero Content -->
+        <div class="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+            <h1 class="text-4xl sm:text-5xl lg:text-7xl font-bold mb-6 leading-tight">
+                forging wonder <br>
+                <span class="text-primary">together</span>
+            </h1>
+            <p class="text-xl sm:text-2xl mb-8 text-gray-200 max-w-2xl mx-auto">
+                Precision welding and fabrication, tailored to your needs.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#services" class="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 rounded-custom-lg text-lg font-semibold transition-colors shadow-lg">
+                    View Services
+                </a>
+                <a href="#contact" class="bg-white/10 hover:bg-white/20 text-white border border-white/30 px-8 py-4 rounded-custom-lg text-lg font-semibold transition-colors backdrop-blur-sm">
+                    Get a Quote
+                </a>
+            </div>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white">
+            <a href="#about" class="animate-bounce block">
+                <i class="fas fa-chevron-down text-2xl"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-muted">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl lg:text-4xl font-bold mb-6 text-foreground">
+                        Wrought Iron, Aluminum, <br>
+                        <span class="text-primary">Stainless Steel Railing</span>
+                    </h2>
+                    <p class="text-lg text-muted-foreground mb-8 leading-relaxed">
+                        Durable, reliable, and expertly crafted metalwork. We prioritize safety and adhere to strict safety protocols in every aspect of our work.
+                    </p>
+                    <a href="#contact" class="inline-flex items-center bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-3 rounded-custom-lg font-semibold transition-colors">
+                        Get a Quote
+                        <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="bg-card p-6 rounded-custom-lg shadow-md">
+                        <div class="w-12 h-12 bg-primary/10 rounded-custom-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-shield-alt text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 text-card-foreground">Safety First</h3>
+                        <p class="text-muted-foreground">Strict safety protocols in every aspect of our work.</p>
+                    </div>
+                    <div class="bg-card p-6 rounded-custom-lg shadow-md">
+                        <div class="w-12 h-12 bg-primary/10 rounded-custom-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-tools text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 text-card-foreground">Skilled Craftsmanship</h3>
+                        <p class="text-muted-foreground">Expert fabrication and installation services.</p>
+                    </div>
+                    <div class="bg-card p-6 rounded-custom-lg shadow-md">
+                        <div class="w-12 h-12 bg-primary/10 rounded-custom-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-microchip text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 text-card-foreground">Advanced Technology</h3>
+                        <p class="text-muted-foreground">Latest welding technology for high-quality results.</p>
+                    </div>
+                    <div class="bg-card p-6 rounded-custom-lg shadow-md">
+                        <div class="w-12 h-12 bg-primary/10 rounded-custom-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-drafting-compass text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 text-card-foreground">Custom Rails</h3>
+                        <p class="text-muted-foreground">Whatever style you envision, we make it reality.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What We Offer Section -->
+    <section class="py-24 bg-background">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-bold mb-4 text-foreground">What We Offer</h2>
+                <p class="text-lg text-muted-foreground max-w-2xl mx-auto">
+                    State of the art railing solutions with uncompromising quality and safety standards.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Card 1 -->
+                <div class="bg-card rounded-custom-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="h-48 bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center">
+                        <i class="fas fa-industry text-6xl text-primary"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3 text-card-foreground">Metal Fabrication</h3>
+                        <p class="text-muted-foreground mb-4">
+                            We can fabricate any railing and metal component with precision and expertise.
+                        </p>
+                        <ul class="space-y-2 text-sm text-muted-foreground">
+                            <li><i class="fas fa-check text-primary mr-2"></i>Custom designs</li>
+                            <li><i class="fas fa-check text-primary mr-2"></i>Quality materials</li>
+                            <li><i class="fas fa-check text-primary mr-2"></i>Expert welding</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="bg-card rounded-custom-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="h-48 bg-gradient-to-br from-accent/20 to-accent/5 flex items-center justify-center">
+                        <i class="fas fa-truck text-6xl text-accent-foreground"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3 text-card-foreground">On-Site Repair Crew</h3>
+                        <p class="text-muted-foreground mb-4">
+                            Our mobile repair crew brings expertise directly to your location, saving time and effort.
+                        </p>
+                        <ul class="space-y-2 text-sm text-muted-foreground">
+                            <li><i class="fas fa-check text-primary mr-2"></i>Mobile service</li>
+                            <li><i class="fas fa-check text-primary mr-2"></i>Quick response</li>
+                            <li><i class="fas fa-check text-primary mr-2"></i>Professional repairs</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="bg-card rounded-custom-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow md:col-span-2 lg:col-span-1">
+                    <div class="h-48 bg-gradient-to-br from-secondary/20 to-secondary/5 flex items-center justify-center">
+                        <i class="fas fa-pencil-ruler text-6xl text-secondary-foreground"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3 text-card-foreground">Custom Design</h3>
+                        <p class="text-muted-foreground mb-4">
+                            Your imagination is our inspiration. We craft, design, and deliver with passion and innovation.
+                        </p>
+                        <ul class="space-y-2 text-sm text-muted-foreground">
+                            <li><i class="fas fa-check text-primary mr-2"></i>Limitless possibilities</li>
+                            <li><i class="fas fa-check text-primary mr-2"></i>Attention to detail</li>
+                            <li><i class="fas fa-check text-primary mr-2"></i>Passionate delivery</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24 bg-muted">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-bold mb-4 text-foreground">Our Services</h2>
+                <p class="text-lg text-muted-foreground max-w-2xl mx-auto">
+                    Expert craftsmanship with a focus on safety, quality, and customer satisfaction.
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 items-center mb-16">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjQzOTV8MHwxfHNlYXJjaHw0fHx3ZWxkaW5nfGVufDB8fHx8MTczMzQ1NDE3NXww&ixlib=rb-4.0.3&q=80&w=1080" 
+                         alt="Expert Craftsmanship" 
+                         class="w-full h-96 object-cover rounded-custom-lg shadow-lg">
+                </div>
+                <div>
+                    <h3 class="text-2xl lg:text-3xl font-bold mb-6 text-foreground">Expert Craftsmanship</h3>
+                    <p class="text-lg text-muted-foreground mb-6 leading-relaxed">
+                        We fabricate and install ornamental railings, fences, and guardrails. We provide strong and stylish options that meet safety standards. Whether it's for stairs, balconies, or decks, we're dedicated to offering high-quality railings and great customer service.
+                    </p>
+                    <p class="text-muted-foreground mb-6">
+                        Safety is a top priority at United Iron Works. All railings are designed to meet local building codes and safety regulations, ensuring they are safe and secure for any space.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <span class="bg-primary/10 text-primary px-4 py-2 rounded-custom-lg text-sm font-medium">Building Code Compliant</span>
+                        <span class="bg-primary/10 text-primary px-4 py-2 rounded-custom-lg text-sm font-medium">Safety Certified</span>
+                        <span class="bg-primary/10 text-primary px-4 py-2 rounded-custom-lg text-sm font-medium">Quality Assured</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service Features -->
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-hard-hat text-primary text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-3 text-foreground">Safety Standards</h4>
+                    <p class="text-muted-foreground">All work complies with local building codes and safety regulations.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-medal text-primary text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-3 text-foreground">Quality Materials</h4>
+                    <p class="text-muted-foreground">We use only the finest wrought iron, aluminum, and stainless steel.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-handshake text-primary text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-3 text-foreground">Customer Service</h4>
+                    <p class="text-muted-foreground">Dedicated to providing exceptional service and customer satisfaction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-24 bg-background">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-bold mb-4 text-foreground">Our Projects</h2>
+                <p class="text-lg text-muted-foreground max-w-2xl mx-auto">
+                    Explore our portfolio of completed metalwork projects showcasing our craftsmanship and attention to detail.
+                </p>
+            </div>
+
+            <!-- Project Gallery -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                <!-- Project images - using placeholder images that represent the type of work -->
+                <div class="group relative overflow-hidden rounded-custom-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=400&h=400&fit=crop" 
+                         alt="Custom Stair Railing" 
+                         class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <div class="text-center text-white">
+                            <h4 class="text-lg font-semibold mb-2">Custom Stair Railing</h4>
+                            <p class="text-sm">Wrought Iron Design</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-custom-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=400&fit=crop" 
+                         alt="Balcony Railing" 
+                         class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <div class="text-center text-white">
+                            <h4 class="text-lg font-semibold mb-2">Balcony Railing</h4>
+                            <p class="text-sm">Stainless Steel</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-custom-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=400&fit=crop" 
+                         alt="Deck Railing" 
+                         class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <div class="text-center text-white">
+                            <h4 class="text-lg font-semibold mb-2">Deck Railing</h4>
+                            <p class="text-sm">Aluminum Frame</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-custom-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1600585152915-d208bec867a1?w=400&h=400&fit=crop" 
+                         alt="Industrial Railing" 
+                         class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <div class="text-center text-white">
+                            <h4 class="text-lg font-semibold mb-2">Industrial Railing</h4>
+                            <p class="text-sm">Steel Construction</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-custom-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=400&h=400&fit=crop" 
+                         alt="Custom Gate" 
+                         class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <div class="text-center text-white">
+                            <h4 class="text-lg font-semibold mb-2">Custom Gate</h4>
+                            <p class="text-sm">Ornamental Iron</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-custom-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=400&h=400&fit=crop" 
+                         alt="Porch Railing" 
+                         class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <div class="text-center text-white">
+                            <h4 class="text-lg font-semibold mb-2">Porch Railing</h4>
+                            <p class="text-sm">Traditional Design</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-custom-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1600581781408-6a69c8ec8d46?w=400&h=400&fit=crop" 
+                         alt="Modern Handrail" 
+                         class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <div class="text-center text-white">
+                            <h4 class="text-lg font-semibold mb-2">Modern Handrail</h4>
+                            <p class="text-sm">Minimalist Style</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-custom-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1600298881974-6be191ceeda1?w=400&h=400&fit=crop" 
+                         alt="Commercial Railing" 
+                         class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <div class="text-center text-white">
+                            <h4 class="text-lg font-semibold mb-2">Commercial Railing</h4>
+                            <p class="text-sm">Code Compliant</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="#contact" class="inline-flex items-center bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 rounded-custom-lg font-semibold transition-colors">
+                    Start Your Project
+                    <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-muted">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12">
+                <!-- Contact Info -->
+                <div>
+                    <h2 class="text-3xl lg:text-4xl font-bold mb-6 text-foreground">Need Railing?</h2>
+                    <p class="text-lg text-muted-foreground mb-8">
+                        Request a quote and let's get your project underway.
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-primary/10 rounded-custom-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-phone text-primary text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-semibold text-foreground mb-1">Phone</h4>
+                                <p class="text-muted-foreground">Call us for immediate assistance</p>
+                                <a href="tel:+1234567890" class="text-primary hover:text-primary/80 font-medium">(123) 456-7890</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-primary/10 rounded-custom-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-envelope text-primary text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-semibold text-foreground mb-1">Email</h4>
+                                <p class="text-muted-foreground">Send us your project details</p>
+                                <a href="mailto:info@unitedironworks.com" class="text-primary hover:text-primary/80 font-medium">info@unitedironworks.com</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-primary/10 rounded-custom-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-clock text-primary text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-semibold text-foreground mb-1">Business Hours</h4>
+                                <p class="text-muted-foreground">Monday - Friday: 8:00 AM - 6:00 PM</p>
+                                <p class="text-muted-foreground">Saturday: 9:00 AM - 4:00 PM</p>
+                                <p class="text-muted-foreground">Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8">
+                        <h4 class="text-lg font-semibold text-foreground mb-4">Forging Wonders Together</h4>
+                        <p class="text-muted-foreground italic">
+                            "At our core, we believe in limitless possibilities. Whatever style you envision, we make it a reality—crafting, designing, and delivering with passion, innovation, and attention to detail. Your imagination is our inspiration."
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="bg-card p-8 rounded-custom-lg shadow-lg">
+                    <form id="contact-form" class="space-y-6" novalidate>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="firstName" class="block text-sm font-medium text-card-foreground mb-2">First name *</label>
+                                <input type="text" id="firstName" name="firstName" required 
+                                       autocomplete="given-name"
+                                       aria-describedby="firstName-error"
+                                       class="w-full px-4 py-3 bg-input border border-border rounded-custom-lg focus:outline-none focus:ring-2 focus:ring-ring focus:border-transparent transition-colors">
+                                <div id="firstName-error" class="text-destructive text-sm mt-1 hidden" role="alert"></div>
+                            </div>
+                            <div>
+                                <label for="lastName" class="block text-sm font-medium text-card-foreground mb-2">Last name *</label>
+                                <input type="text" id="lastName" name="lastName" required 
+                                       autocomplete="family-name"
+                                       aria-describedby="lastName-error"
+                                       class="w-full px-4 py-3 bg-input border border-border rounded-custom-lg focus:outline-none focus:ring-2 focus:ring-ring focus:border-transparent transition-colors">
+                                <div id="lastName-error" class="text-destructive text-sm mt-1 hidden" role="alert"></div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-card-foreground mb-2">Email address *</label>
+                            <input type="email" id="email" name="email" required 
+                                   autocomplete="email"
+                                   aria-describedby="email-error"
+                                   class="w-full px-4 py-3 bg-input border border-border rounded-custom-lg focus:outline-none focus:ring-2 focus:ring-ring focus:border-transparent transition-colors">
+                            <div id="email-error" class="text-destructive text-sm mt-1 hidden" role="alert"></div>
+                        </div>
+
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-card-foreground mb-2">Phone number *</label>
+                            <input type="tel" id="phone" name="phone" required 
+                                   autocomplete="tel"
+                                   aria-describedby="phone-error"
+                                   class="w-full px-4 py-3 bg-input border border-border rounded-custom-lg focus:outline-none focus:ring-2 focus:ring-ring focus:border-transparent transition-colors">
+                            <div id="phone-error" class="text-destructive text-sm mt-1 hidden" role="alert"></div>
+                        </div>
+
+                        <div>
+                            <label for="projectType" class="block text-sm font-medium text-card-foreground mb-2">Project Type</label>
+                            <select id="projectType" name="projectType" 
+                                    class="w-full px-4 py-3 bg-input border border-border rounded-custom-lg focus:outline-none focus:ring-2 focus:ring-ring focus:border-transparent transition-colors">
+                                <option value="">Select project type</option>
+                                <option value="stair-railing">Stair Railing</option>
+                                <option value="balcony-railing">Balcony Railing</option>
+                                <option value="deck-railing">Deck Railing</option>
+                                <option value="custom-gate">Custom Gate</option>
+                                <option value="fence">Fence</option>
+                                <option value="repair">Repair Work</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-card-foreground mb-2">Message *</label>
+                            <textarea id="message" name="message" rows="5" required 
+                                      aria-describedby="message-error"
+                                      placeholder="Tell us about your project, including the type of railing, dimensions, and any specific requirements..."
+                                      class="w-full px-4 py-3 bg-input border border-border rounded-custom-lg focus:outline-none focus:ring-2 focus:ring-ring focus:border-transparent transition-colors resize-vertical"></textarea>
+                            <div id="message-error" class="text-destructive text-sm mt-1 hidden" role="alert"></div>
+                        </div>
+
+                        <div class="flex items-start space-x-3">
+                            <input type="checkbox" id="consent" name="consent" required
+                                   class="mt-1 h-4 w-4 text-primary border-border rounded focus:ring-2 focus:ring-ring">
+                            <label for="consent" class="text-sm text-muted-foreground">
+                                I consent to being contacted by United Iron Works regarding my inquiry. *
+                            </label>
+                        </div>
+
+                        <button type="submit" id="submit-btn"
+                                class="w-full bg-primary hover:bg-primary/90 disabled:bg-muted disabled:cursor-not-allowed text-primary-foreground py-3 px-6 rounded-custom-lg font-semibold transition-colors shadow-md hover:shadow-lg flex items-center justify-center">
+                            <span id="submit-text">Get a Quote</span>
+                            <span id="submit-loading" class="hidden">
+                                <i class="fas fa-spinner fa-spin mr-2"></i>
+                                Sending...
+                            </span>
+                        </button>
+
+                        <div id="form-message" class="hidden p-4 rounded-custom-lg" role="alert"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-card border-t border-border py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-hammer text-primary text-xl mr-2"></i>
+                        <span class="text-xl font-bold text-card-foreground">United Iron Works</span>
+                    </div>
+                    <p class="text-muted-foreground mb-4">
+                        Precision welding and fabrication, tailored to your needs. Forging wonders together with safety, quality, and craftsmanship.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-muted-foreground hover:text-primary transition-colors">
+                            <i class="fab fa-facebook text-xl"></i>
+                        </a>
+                        <a href="#" class="text-muted-foreground hover:text-primary transition-colors">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="#" class="text-muted-foreground hover:text-primary transition-colors">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-semibold text-card-foreground mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-muted-foreground hover:text-primary transition-colors">Home</a></li>
+                        <li><a href="#services" class="text-muted-foreground hover:text-primary transition-colors">Services</a></li>
+                        <li><a href="#projects" class="text-muted-foreground hover:text-primary transition-colors">Projects</a></li>
+                        <li><a href="#contact" class="text-muted-foreground hover:text-primary transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="text-lg font-semibold text-card-foreground mb-4">Our Services</h4>
+                    <ul class="space-y-2 text-muted-foreground">
+                        <li>Custom Railing Design</li>
+                        <li>Metal Fabrication</li>
+                        <li>On-Site Repairs</li>
+                        <li>Safety Inspections</li>
+                        <li>Code Compliance</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-border pt-8 text-center">
+                <p class="text-muted-foreground">
+                    © 2024 United Iron Works. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Utility functions
+        const debounce = (func, wait) => {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func(...args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        };
+
+        // Form validation utilities
+        const validators = {
+            required: (value) => value.trim() !== '',
+            email: (value) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value),
+            phone: (value) => /^[\+]?[1-9][\d]{0,15}$/.test(value.replace(/[\s\-\(\)]/g, '')),
+            minLength: (value, min) => value.length >= min
+        };
+
+        const showError = (fieldId, message) => {
+            const field = document.getElementById(fieldId);
+            const errorDiv = document.getElementById(`${fieldId}-error`);
+            
+            if (field && errorDiv) {
+                field.classList.add('border-destructive');
+                errorDiv.textContent = message;
+                errorDiv.classList.remove('hidden');
+            }
+        };
+
+        const clearError = (fieldId) => {
+            const field = document.getElementById(fieldId);
+            const errorDiv = document.getElementById(`${fieldId}-error`);
+            
+            if (field && errorDiv) {
+                field.classList.remove('border-destructive');
+                errorDiv.classList.add('hidden');
+            }
+        };
+
+        const validateField = (fieldId, value, rules) => {
+            clearError(fieldId);
+            
+            for (const rule of rules) {
+                if (rule.validator && !rule.validator(value)) {
+                    showError(fieldId, rule.message);
+                    return false;
+                }
+            }
+            return true;
+        };
+
+        // Mobile menu functionality
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenuOverlay = document.getElementById('mobile-menu-overlay');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const closeMobileMenu = document.getElementById('close-mobile-menu');
+
+        function openMobileMenu() {
+            mobileMenuOverlay.classList.remove('hidden');
+            document.body.style.overflow = 'hidden'; // Prevent background scrolling
+            setTimeout(() => {
+                mobileMenu.classList.remove('translate-x-full');
+            }, 10);
+        }
+
+        function closeMobileMenuFunc() {
+            mobileMenu.classList.add('translate-x-full');
+            document.body.style.overflow = ''; // Restore scrolling
+            setTimeout(() => {
+                mobileMenuOverlay.classList.add('hidden');
+            }, 300);
+        }
+
+        if (mobileMenuBtn) mobileMenuBtn.addEventListener('click', openMobileMenu);
+        if (closeMobileMenu) closeMobileMenu.addEventListener('click', closeMobileMenuFunc);
+        if (mobileMenuOverlay) {
+            mobileMenuOverlay.addEventListener('click', (e) => {
+                if (e.target === mobileMenuOverlay) {
+                    closeMobileMenuFunc();
+                }
+            });
+        }
+
+        // Close mobile menu when clicking on nav links
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', closeMobileMenuFunc);
+        });
+
+        // Escape key handler for mobile menu
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && !mobileMenuOverlay.classList.contains('hidden')) {
+                closeMobileMenuFunc();
+            }
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const navHeight = 64; // Height of fixed nav
+                    const targetPosition = target.offsetTop - navHeight;
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Contact form submission with enhanced validation
+        const contactForm = document.getElementById('contact-form');
+        if (contactForm) {
+            // Real-time validation
+            const fields = {
+                firstName: [
+                    { validator: validators.required, message: 'First name is required' },
+                    { validator: (v) => validators.minLength(v, 2), message: 'First name must be at least 2 characters' }
+                ],
+                lastName: [
+                    { validator: validators.required, message: 'Last name is required' },
+                    { validator: (v) => validators.minLength(v, 2), message: 'Last name must be at least 2 characters' }
+                ],
+                email: [
+                    { validator: validators.required, message: 'Email is required' },
+                    { validator: validators.email, message: 'Please enter a valid email address' }
+                ],
+                phone: [
+                    { validator: validators.required, message: 'Phone number is required' },
+                    { validator: validators.phone, message: 'Please enter a valid phone number' }
+                ],
+                message: [
+                    { validator: validators.required, message: 'Message is required' },
+                    { validator: (v) => validators.minLength(v, 10), message: 'Message must be at least 10 characters' }
+                ]
+            };
+
+            // Add real-time validation
+            Object.keys(fields).forEach(fieldId => {
+                const field = document.getElementById(fieldId);
+                if (field) {
+                    const debouncedValidate = debounce(() => {
+                        validateField(fieldId, field.value, fields[fieldId]);
+                    }, 500);
+
+                    field.addEventListener('blur', () => {
+                        validateField(fieldId, field.value, fields[fieldId]);
+                    });
+                    
+                    field.addEventListener('input', debouncedValidate);
+                }
+            });
+
+            contactForm.addEventListener('submit', async function(e) {
+                e.preventDefault();
+                
+                const submitBtn = document.getElementById('submit-btn');
+                const submitText = document.getElementById('submit-text');
+                const submitLoading = document.getElementById('submit-loading');
+                const formMessage = document.getElementById('form-message');
+                const consentField = document.getElementById('consent');
+                
+                // Clear previous messages
+                formMessage.classList.add('hidden');
+                
+                // Validate all fields
+                let isValid = true;
+                Object.keys(fields).forEach(fieldId => {
+                    const field = document.getElementById(fieldId);
+                    if (field && !validateField(fieldId, field.value, fields[fieldId])) {
+                        isValid = false;
+                    }
+                });
+
+                // Validate consent
+                if (!consentField.checked) {
+                    formMessage.textContent = 'Please consent to being contacted.';
+                    formMessage.className = 'p-4 rounded-custom-lg bg-destructive/10 text-destructive border border-destructive/20';
+                    formMessage.classList.remove('hidden');
+                    isValid = false;
+                }
+
+                if (!isValid) {
+                    return;
+                }
+
+                // Show loading state
+                submitBtn.disabled = true;
+                submitText.classList.add('hidden');
+                submitLoading.classList.remove('hidden');
+
+                try {
+                    // Get form data
+                    const formData = new FormData(this);
+                    const data = Object.fromEntries(formData);
+                    
+                    // Simulate API call (replace with actual endpoint)
+                    await new Promise(resolve => setTimeout(resolve, 2000));
+                    
+                    // Show success message
+                    formMessage.textContent = 'Thank you for your message! We\'ll get back to you within 24 hours with a quote.';
+                    formMessage.className = 'p-4 rounded-custom-lg bg-primary/10 text-primary border border-primary/20';
+                    formMessage.classList.remove('hidden');
+                    
+                    // Reset form
+                    this.reset();
+                    
+                    // Clear any remaining errors
+                    Object.keys(fields).forEach(fieldId => {
+                        clearError(fieldId);
+                    });
+
+                } catch (error) {
+                    // Show error message
+                    formMessage.textContent = 'Sorry, there was an error sending your message. Please try again or call us directly.';
+                    formMessage.className = 'p-4 rounded-custom-lg bg-destructive/10 text-destructive border border-destructive/20';
+                    formMessage.classList.remove('hidden');
+                } finally {
+                    // Reset button state
+                    submitBtn.disabled = false;
+                    submitText.classList.remove('hidden');
+                    submitLoading.classList.add('hidden');
+                }
+            });
+        }
+
+        // Navbar background on scroll
+        const nav = document.querySelector('nav');
+        const handleScroll = debounce(() => {
+            if (window.scrollY > 50) {
+                nav.classList.add('bg-background/98', 'backdrop-blur-md');
+                nav.classList.remove('bg-background/95');
+            } else {
+                nav.classList.add('bg-background/95');
+                nav.classList.remove('bg-background/98', 'backdrop-blur-md');
+            }
+        }, 10);
+
+        window.addEventListener('scroll', handleScroll);
+
+        // Intersection Observer for navigation highlighting
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('nav a[href^="#"], #mobile-menu a[href^="#"]');
+
+        const observerOptions = {
+            root: null,
+            rootMargin: '-50% 0px -50% 0px',
+            threshold: 0
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.getAttribute('id');
+                    navLinks.forEach(link => {
+                        link.classList.remove('text-primary');
+                        if (link.getAttribute('href') === `#${id}`) {
+                            link.classList.add('text-primary');
+                        }
+                    });
+                }
+            });
+        }, observerOptions);
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+
+        // Image lazy loading and error handling
+        document.querySelectorAll('img').forEach(img => {
+            img.addEventListener('error', function() {
+                this.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZGRkIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkltYWdlIHVuYXZhaWxhYmxlPC90ZXh0Pjwvc3ZnPg==';
+                this.alt = 'Image unavailable';
+            });
+        });
+
+        // Performance monitoring
+        window.addEventListener('load', () => {
+            if ('performance' in window) {
+                const loadTime = performance.timing.loadEventEnd - performance.timing.navigationStart;
+                console.log(`Page load time: ${loadTime}ms`);
+                
+                // Report to analytics if needed
+                if (loadTime > 3000) {
+                    console.warn('Page load time is above 3 seconds');
+                }
+            }
+        });
+
+        // Error handling
+        window.addEventListener('error', (e) => {
+            console.error('JavaScript error:', e.error);
+            // Report to error tracking service in production
+        });
+
+        window.addEventListener('unhandledrejection', (e) => {
+            console.error('Unhandled promise rejection:', e.reason);
+            // Report to error tracking service in production
+        });
+    </script>
+</body>
+</html>
