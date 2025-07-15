@@ -189,43 +189,10 @@ Target performance metrics:
 - Cumulative Layout Shift: < 0.1
 - Time to Interactive: < 3.5s
 
-## 🐛 Troubleshooting
-
-### Common Issues
-
-**Port already in use:**
-```bash
-# Kill process on port 3000
-lsof -ti:3000 | xargs kill -9
-```
-
-**Images not loading:**
-- Check image paths are correct
-- Ensure images are in the project directory
-- Verify image formats are supported
-
-**Styles not applying:**
-- Clear browser cache
-- Check CSS syntax
-- Verify Tailwind classes are correct
-
-## 📞 Support
-
-For technical support or questions:
-- Email: developers@unitedironworks.com
-- GitHub Issues: [Create an issue](https://github.com/unitedironworks/website/issues)
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🏗️ Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
 
 ## 📈 Analytics & Monitoring
 

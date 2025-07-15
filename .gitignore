@@ -51,3 +51,5 @@ logs/
 # Temporary files
 tmp/
 temp/
+CLEANUP_SUMMARY.md
+DEPLOYMENT_CHECKLIST.md
